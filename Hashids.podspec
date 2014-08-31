@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Hashids"
-  s.version          = "0.3.1"
+  s.version          = "0.3.2"
   s.summary          = "Hashids Implementation for Objective C"
   s.description      = <<-DESC
 Hashids Implementation for Objective C
