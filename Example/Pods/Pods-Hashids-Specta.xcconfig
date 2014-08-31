@@ -1,0 +1,2 @@
+PODS_HASHIDS_SPECTA_FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"
+PODS_HASHIDS_SPECTA_OTHER_LDFLAGS = -framework Foundation -framework XCTest

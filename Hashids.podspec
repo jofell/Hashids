@@ -9,22 +9,31 @@
 
 Pod::Spec.new do |s|
   s.name             = "Hashids"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of Hashids."
+  s.version          = "0.3.1"
+  s.summary          = "Hashids Implementation for Objective C"
   s.description      = <<-DESC
-                       An optional longer description of Hashids
+Hashids Implementation for Objective C
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+Website: [http://www.hashids.org](http://www.hashids.org)
+
+Generate short hashes from unsigned integers (like YouTube and Bitly).
+
+* obfuscate database IDs
+* use them as forgotten password hashes
+* invitation codes
+* store shard numbers
+
+Hashids was designed for use in URL shortening, tracking stuff, validating accounts, or making pages private. Instead of showing items as `1`, `2`, or `3`, you could show them as `b9iLXiAa`, `EATedTBy`, and `Aaco9cy5`. Hashes depend on your salt value as well.
+
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Hashids"
+  s.homepage         = "https://hashids.github.io"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jopes Gallardo" => "jofellxcite@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Hashids.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/jofell/Hashids.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/jofell'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
