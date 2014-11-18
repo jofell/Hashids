@@ -453,7 +453,10 @@
         {
             NSString *salt = [NSString stringWithFormat:@"%d%@", (lottery_char & 12345), self.hashSalt];
             inAlpha = [self consistentShuffle:inAlpha withSalt:salt];
-            [results addObject:[self unhash:subhash withAlpha:inAlpha]];
+            NSNumber *unhashed = [self unhash:subhash withAlpha:inAlpha];
+            if (unhashed) {
+                [results addObject:unhashed];
+            }
         }
         
     }
