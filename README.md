@@ -21,7 +21,7 @@ Usage
 Installation
 ------------
 
-*Via Cocoapods*
+*Via CocoaPods*
 
 Add to `Podfile` the Cocoapod named `Hashids` like so:
 
