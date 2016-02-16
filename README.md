@@ -47,13 +47,13 @@ You can install Hashids for Objective-C by downloading the files from the reposi
 
     git clone https://github.com/jofell/Hashids.git
 
-After you get access to the files from the repository, go to the folder `Hashids/Pod/Classes` and add all the class files to your XCode project.
+After you get access to the files from the repository, go to the folder `Hashids/Pod/Classes` and add all the class files to your Xcode project.
 
 
 Basic Usage
 -----------
 
-As soon as you add the class files onto your XCode Project, just import Hashids to your Objective-C Source Codes.
+As soon as you add the class files onto your Xcode Project, just import Hashids to your Objective-C Source Codes.
 
 ```objectivec
     
